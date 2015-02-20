@@ -1,0 +1,14 @@
+<h1>Questionnaires#show</h1>
+
+<p>
+  <strong>タイトル:</strong>
+  <%= @questionnaire.title %>
+</p>
+<p>
+  <strong>説明:</strong>
+  <%= simple_format(h(@questionnaire.description)) %>
+</p>
+<p>
+  <%= link_to 'Back', action: :index %>
+</p>
+
