@@ -46,3 +46,6 @@ end
 group :development do
   gem 'pry-rails'
 end
+
+gem 'devise'
+
